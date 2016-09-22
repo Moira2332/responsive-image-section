@@ -30,7 +30,7 @@ html {
 body {
   background-color: #e2e2e2;
   padding: 1rem 2rem 1rem 2rem;
-  margin: 0
+  margin: 0;
 }
 
 a {
@@ -55,7 +55,7 @@ span {
   display: block;
 }
 
-p{
+p {
   margin: 0 0 2em 0;
 }
 
@@ -68,7 +68,7 @@ p{
   display: block;
 }
 
-@@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 25em) {
 
   html {
     font-size: 110%;
@@ -97,25 +97,25 @@ p{
 
 @@media only screen and (min-width: 38em) {
 
-html {
-  font-size: 120%;
-  line-height: 1.5;
-  max-width: 1000px;
-  margin: auto;
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .img {
+    margin-left: 3em;
+  }
+
 }
 
-.img {
-  margin-left: 3em;
-}
+@@media only screen and (min-width: 60em) {
 
-}
-
-@@media only screen and (min-width: 38em) {
-
-html {
-  font-size: 130%;
-  line-height: 1.5;
-  margin: auto;
-}
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+    margin: auto;
+  }
 
 }
