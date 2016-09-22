@@ -29,38 +29,32 @@ html {
 
 body {
   background-color: #e2e2e2;
-  padding: 1rem 2rem 1rem 2rem;
   margin: 0;
+}
+
+section {
+  padding: 1rem 0;
 }
 
 a {
   text-align: center;
   background-color: #555;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .caption {
   text-align: left;
-  max-width: 50%;
+  padding: 0 1rem 1rem;
 }
 
 h1 {
   color: #000;
-  display: inline-block;
   margin-top: 0;
 }
 
-span {
-  font-weight: bold;
-  display: block;
-}
-
 p {
-  margin: 0 0 2em 0;
-}
-
-.img {
-  margin-top: 2em;
+  margin: 0 0 1.3em 0;
 }
 
 .img-flex {
@@ -68,7 +62,7 @@ p {
   display: block;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -95,7 +89,7 @@ p {
 
 }
 
-@@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -110,12 +104,10 @@ p {
 
 }
 
-@@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
-    margin: auto;
   }
 
 }
